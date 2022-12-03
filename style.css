@@ -1,0 +1,106 @@
+.maincontainer {
+  border: 0.5px solid black;
+  border-radius: 20px 20px 20px 20px;
+  width: 950px;
+  height: 750px;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(90, 145, 190);
+}
+
+.squarediv {
+  border: #b1437a 0.5px solid;
+  background-color: #b17a43;
+  width: auto;
+}
+
+.secondcontainer {
+  border: 20px 22px 20px 22px solid #b1437a;
+  background-color: #b1437a;
+  display: grid;
+  height: 480px;
+  width: 480px;
+  padding: 20px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #3d76c6;
+}
+
+h1 {
+  color: #20dcdc;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.sidebar {
+  border: 2px solid #23d9d9;
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clear {
+  background-color: #9f3c9f;
+  border-radius: 5px;
+  height: 85px;
+  width: 85px;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+
+}
+
+.erase {
+  background-color: #3c9f6e;
+  border-radius: 5px;
+  height: 85px;
+  width: 85px;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+}
+
+.draw {
+  background-color: #9f6e3c;
+  border-radius: 5px;
+  height: 85px;
+  width: 85px;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+
+}
+
+
+.clickndrag {
+    background-color: rgb(196,99,99);
+    border-radius: 5px;
+    height: 85px;
+    width: 85px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  
+}
